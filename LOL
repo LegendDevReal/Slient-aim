@@ -1,22 +1,4 @@
-local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
-local Notify = AkaliNotif.Notify;
-Notify({
-Description = "some_random dude loaded";
-Title = "have fun:D";
-Duration = 70;
-});
-loadstring(game:HttpGet("https://raw.githubusercontent.com/RFS-cmd/-/main/first"))()
- 
-Aiming.TargetPart = {"Head"}
-Aiming.FOV = 170
-Aiming.FOVSides = 250
-Aiming.HitChance = 170
-Aiming.ShowFOV = false
-getgenv().AutoPrediction = true
-getgenv().Prediction = 0.157
--- auto prediction highly recommended...
-if getgenv().AutoPrediction == true then
-function h()
+
         while true do wait()
 local pingvalue = game:GetService("Stats").Network.ServerStatsItem["Data Ping"]:GetValueString()
         local split = string.split(pingvalue,'(')
